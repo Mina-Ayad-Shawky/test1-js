@@ -1,0 +1,29 @@
+button{
+    
+    width: 15%;
+    padding: 15px 10px;
+    border-radius: 15px;
+    border-color: white;
+    margin-bottom: 20px;
+}
+div{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.darkmode{
+    background-color: rgb(54, 52, 52);
+    color: white;
+}
+.blackmode{
+    background-color: black;
+}
+.p1 p{
+    padding: 20px;
+    border-radius: 20px;
+}
+@media(max-width:750px){
+    button{
+        width: 50%;
+    }
+}
